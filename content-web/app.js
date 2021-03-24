@@ -5,6 +5,7 @@ const request = require('request');
 
 const app = express();
 
+//1
 app.use(express.static(path.join(__dirname, 'dist/content-web')));
 const contentApiUrl = process.env.CONTENT_API_URL || "http://Build-Machine-IP:3001";
 
